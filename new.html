@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<title>Details</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.body{
+   margin: 0px;
+   padding: 0px;
+   overflow: hidden;
+}
+
+.wrapper {
+    background-image:url('data:image/jpeg;base64,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');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-content-zooming: none;
+    position:absolute;
+    width:100%;
+    height:100%;
+    overflow: scroll;
+}
+table, th, td {
+	font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+table.center {
+  margin-left:auto; 
+  margin-right:auto;
+}
+</style>
+</head>
+<body>
+	
+	<div class="wrapper">
+<h2 align="center">Details</h2>
+	<table class="center" frame="box">
+		<tr>
+			<th>Name:</th>
+		    <td>B. Harika Lakshmi</td>
+		</tr>
+		<tr>
+			<th>Address:</th>
+			<td>14-977<br>
+		        Panchali nagar 12th street<br>
+		        Renigunta<br>
+		        Chitoor district<br>
+		        Andhra Pradesh<br>
+		        <a href="tel:9110777952">9110777952</a><br>
+		        <a href = "mailto: harikabujji.1884@gmail.com">harikabujji.1884@gmail.com</a></td>
+	    </tr>
+	    <tr>
+	    	<th>Languages:</th>
+	    	<td>Telugu<br>
+	    		English<br>
+	    		Hindi</td>
+	    </tr>
+	    <tr>
+	    	<th>Education:</th>
+	    	<td>Diploma in Computer Science and Engineering at Sree Vidyanikethan Engineering College in 2016-2019 with 84%<br>
+			High School at Kendriya Vidyalaya No:2 CRS Tirupati in 2015-2016 with 8.6 CGPA</td>
+	    </tr>
+	    
+	    	<tr>
+		<th>Date of birth:</th>
+		<td>22/09/2000</td>
+	</tr>
+	<tr >
+		<th>Father's name:</th>
+		<td>B.S.R. Anjaneyulu</td>
+	</tr>
+	<tr>
+		<th>Mother's name:</th>
+		<td>B.V.N. Uma Devi</td>
+	</tr>
+	<tr>
+		<th>Hobbies:</th>
+		<td>
+			Listening and singing songs<br>
+			Watching movies<br>
+			Making art crafts
+		</td>
+	</tr>
+	<tr >
+		<th>Intrested in:</th>
+		<td>Travelling<br>
+			Learning new things
+	</td>
+</tr>
+	    </tr>
+    </table>
+</div>
+</body>
+</html>
